@@ -28,4 +28,4 @@
    
    
 ![alt text](/image.jpg)
-![image](https://drive.google.com/file/d/1LpJEamB6jnVEFCC55rt7hBrOtliEhke2/view?usp=sharing)
+![image](https://i.imgur.com/gmJnzj1.jpeg)
