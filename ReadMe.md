@@ -10,11 +10,14 @@
 ### For consumers who need housing accommodations for select periods of time that provide more space than hotels, BuildingBnB is an application software that shows listings of buildings and houses that utilizes an easy to use interface for its users. Unlike the competitive products, our service can allow for same day booking and renting of all properties from office spaces to tables at a park.
 
 ## **Functional Requirements**
-1. Listings of various properties with prices
-1. Payment system
-2. Location
-3. Calendar
-4. Web Hosting domain
+1. Login page
+2.Payment System
+3.Location Services
+4.Calendar / Booking System
+5.Home Page
+6.Review Page
+7.Individual Housing Information
+8.Hosting Portal
 
 ## **Non Functional**
 1. Filter system
@@ -22,6 +25,7 @@
 3. Advertisement
 4. Review system
 5. Profile
+   
    
 ![alt text](/image.jpg)
 ![image](https://drive.google.com/file/d/1LpJEamB6jnVEFCC55rt7hBrOtliEhke2/view?usp=sharing)
