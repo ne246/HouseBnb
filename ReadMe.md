@@ -26,6 +26,4 @@
 4. Review system
 5. Profile
    
-   
-![alt text](/image.jpg)
 ![image](https://i.imgur.com/gmJnzj1.jpeg)
