@@ -20,12 +20,15 @@
 8. Hosting Portal
 
 ## **Non Functional**
-1. Verification
+#9 Verification
    -Ensurement that properties being listed are verified with proper documentation to deter fake listings that could deceive users.
-2. Scalability
+#10 Scalability
    -The ability to support an ever expanding list of properties added by users.
-3. Security
+#11 Security
    -Storage of user's sensitive banking information should be kept secure and be difficult to access without correct credentials
-4. Review system
+#12 Portability
+   -Website should also be mobile platform friendly, with same fuctionalities as desktop.
+#13 Convenience
+   -Users should be able to login to their profile within 3 seconds.
 
 ![image](https://i.imgur.com/gmJnzj1.jpeg)
