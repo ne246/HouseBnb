@@ -1,4 +1,4 @@
-# **BuildingBnb**
+# **HouseBnb**
 
 ### **Group Number: 6**
 ### **Names: Cesar Carrillo, Philip Ma, Jordan Mai, Evan Miller, Nevien Udugama**
