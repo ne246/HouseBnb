@@ -24,7 +24,8 @@
    -Ensurement that properties being listed are verified with proper documentation to deter fake listings that could deceive users.
 2. Scalability
    -The ability to support an ever expanding list of properties added by users.
-3. Advertisement
+3. Security
+   -Storage of user's sensitive banking information should be kept secure and be difficult to access without correct credentials
 4. Review system
 
 ![image](https://i.imgur.com/gmJnzj1.jpeg)
