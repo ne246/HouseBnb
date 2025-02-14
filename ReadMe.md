@@ -20,15 +20,15 @@
 8. Hosting Portal
 
 ## **Non Functional**
-#9 Verification
+1. Verification #NFR1
    -Ensurement that properties being listed are verified with proper documentation to deter fake listings that could deceive users.
-#10 Scalability
+2. Scalability #NFR2
    -The ability to support an ever expanding list of properties added by users.
-#11 Security
+3. Security #NFR3
    -Storage of user's sensitive banking information should be kept secure and be difficult to access without correct credentials
-#12 Portability
+4. Portability #NFR4
    -Website should also be mobile platform friendly, with same fuctionalities as desktop.
-#13 Convenience
+5. Convenience #NFR5
    -Users should be able to login to their profile within 3 seconds.
 
 ![image](https://i.imgur.com/gmJnzj1.jpeg)
