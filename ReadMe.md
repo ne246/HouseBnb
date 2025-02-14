@@ -20,10 +20,10 @@
 8. Hosting Portal
 
 ## **Non Functional**
-1. Filter system
-2. Can support at least 5,000 different listings
-3. Advertisement
-4. Review system
-5. Profile
+### 1. Filter system
+### 2. Scalability - The ability to support an ever expanding list of properties added by users.
+### 3. Advertisement
+### 4. Review system
+### 5. Profile
    
 ![image](https://i.imgur.com/gmJnzj1.jpeg)
