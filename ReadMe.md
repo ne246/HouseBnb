@@ -20,12 +20,11 @@
 8. Hosting Portal
 
 ## **Non Functional**
-### 1. Verification
+1. Verification
    -Ensurement that properties being listed are verified with proper documentation to deter fake listings that could deceive users.
-### 2. Scalability
+2. Scalability
    -The ability to support an ever expanding list of properties added by users.
-### 3. Advertisement
-### 4. Review system
-### 5. Profile
-   
+3. Advertisement
+4. Review system
+
 ![image](https://i.imgur.com/gmJnzj1.jpeg)
