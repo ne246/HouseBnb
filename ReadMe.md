@@ -7,7 +7,7 @@
 --- 
 
 ## **Vision**
-### For consumers who need housing accommodations for select periods of time that provide more space than hotels, HouseBnB is an application software that shows listings of buildings and houses that utilizes an easy to use interface for its users. Unlike the competitive products, our service can allow for same day booking and renting of all properties from apartment spaces to entire houses.
+### For consumers who need housing accommodations for select periods of time that provide more space than hotels, HouseBnb is an application software that shows listings of buildings and houses that utilizes an easy to use interface for its users. Unlike the competitive products, our service can allow for same day booking and renting of all properties from apartment spaces to entire houses.
 
 ## **Functional Requirements**
 | Code | Title | Description |
