@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-container {
+    overflow: hidden;
+    height: 20vh;
+    border-bottom: 2px solid #453e80;
+}
+.nav-container .sublinks{
+    float: left;
+    position: absolute;
+    left: 41%;
+    top: 13%;
+}
+.nav-container .sublinks a {
+    float: left;
+    font-family: "Quicksand";
+    font-size: 24px;
+    margin: 20px;
+    text-decoration: none;
+}
+.nav-container button {
+    margin-top: 10px;
+    margin-left: 2px;
+    margin-right: 10px;
+    font-size: 15px;
+    float: right;
+    display: block;
+    padding: 8px 6px;
+    border: none;
+    border-radius: 12px;
+    background-color: #EEEEEE;
+    color: #453e80;
+    cursor: pointer;
+}
+.column tbody td {
+    transform-origin: top;
+    animation: revealing-bars 2s linear infinite;
+}
+@keyframes revealing-bars {
+    0% {transform: scaleY(0);}
+    30% {transform: scaleX(1);}
+}
+.line_animation_hover {
+    display: inline-block;
+    position: relative;
+}
+.line_animation_hover::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #453e80;
+    transition: transform 0.25s ease-out;
+}
+.line_animation_hover:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom center;
+}
+.nav-container .logo-container {
+    float: left;
+}
+.nav-container .logo-container a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 14px;
+    text-decoration: none;
+}
+.nav-container .logo-container a:hover {
+    background-color: transparent;
+    color: transparent;
+}
+.nav-container .logo-container a:active {
+    background-color: transparent;
+    color: transparent;
+}
+.search-container {
+   overflow: hidden;
+   margin-top: 30px;
+   height: 70vh;
+}
+.search-container .search-bar-container {
+    position: absolute;
+    left: 16%;
+    top: 50%;
+}
+.search-container input[type = text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+.search-container .search-bar-container button {
+    float: right;
+    padding: 6px;
+    margin: 5px 5px;
+    background: white;
+    color: black;
+    font-size: 17px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.search-container .img-container {
+    position: relative;
+    float: left;
+}
+.search-container .img-container img {
+    position: absolute;
+    object-fit: cover;
+    animation-name: fade;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+}
+@keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+}
+#f0 {
+    animation-delay: 0s;
+}
+#f1 {
+    animation-delay: -4s;
+}
+#f2 {
+    animation-delay: -2s;
+}
+#f3 {
+    animation-delay: -5s;
+}
+.background {
+    background-color: #EEEEEE;
+}
+.ui-datepicker {
+    width: 300px;
+    height: 250px;
+}
+.ui-datepicker-header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.ui-datepicker-title {
+    text-align: center;
+    font-size: 20px;
+}
+.ui-datepicker-prev {
+    float: left;
+    cursor: pointer;
+    background-position: center -30px;
+}
+.ui-datepicker-next {
+    float: right;
+    cursor: pointer;
+    background-position: center 0px;
+}
+.ui-datepicker thead {
+    background-color: blue;
+}
+.ui-datepicker th {
+    background-color: paleturquoise;
+}
+.homes-container {
+    margin-top: 30px;
+    overflow: scroll;
+}
+.homes-container .home a {
+    cursor: pointer;
+}
+.homes-container .home {
+    margin: 20px;
+    display: inline-block;
+}
+.homes-container .home img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 5px solid black;
+    border-radius: 20px;
+}

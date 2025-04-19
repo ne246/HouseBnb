@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <title>Homepage</title>
+    <link rel = "stylesheet" type = "text/css" href = "index.css">
+    <link rel="stylesheet" href=
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.14.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.14.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+</head>
+<body class="background">
+     <div class="nav-container">
+        <div class="sublinks">
+            <a href="">Homes</a>
+            <a href="">Experiences</a>
+        </div>
+        <div class="logo-container">
+            <a href="index.html"><img src="Logo-removebg-preview.png" style = "width:120px"></a>
+        </div>
+        <a href="login.html"><button class="line_animation_hover">Sign in | <i class="fa fa-sign-in"></i></button></a>
+        <button class="line_animation_hover">Schedule</button>
+     </div>
+     <div class="search-container">
+        <div class="img-container">
+            <img id="f2" src="image-1436x513-3.jpg">
+            <img id="f1" src="img2.jpg">
+            <img id="f0" src="EWP_Ferndale-Lounge-4242.1900x600.jpg">
+        </div>
+        <div class="search-bar-container">
+            <form>
+                <input type="text" placeholder="Search" name="search">
+                <input type="text" placeholder="Check in" id="CI">
+                <input type="text" placeholder="Check out" id="CO">
+                <input type="text" placeholder="Number of Guests" name="NumOfGuest">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+     </div>
+     <script>
+        $(document).ready(function() {
+            $("#CI").datepicker();
+            $("#CO").datepicker();
+        });
+     </script>
+     <div class="homes-container">
+        <div class="home">
+            <img src="760x470xc.jpg">
+            <p>House #1</p>
+        </div>
+        <div class="home">
+            <img src="2206_Int_Kitchen_C01_F01-copy_sm.jpg">
+            <p>House #2</p>
+        </div>
+        <div class="home">
+            <img src="GA_ATL_PITTSBURGH_82772_161_RT-2_RT-5f7457-720x480.jpg">
+            <p>House #3</p>
+        </div>
+        <div class="home">
+            <img src="13038_00_N92_high-scaled-720x480.jpg.webp">
+            <p>House #4</p>
+        </div>
+        <div class="home">
+            <img src="10_08041_00_N25-720x480.jpg.webp">
+            <p>House #5</p>
+        </div>
+     </div>
+</body>
+</body>
+</html>
