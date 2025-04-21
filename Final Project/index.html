@@ -9,17 +9,23 @@
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.14.1/themes/smoothness/jquery-ui.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.14.1/jquery-ui.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Permanent Marker">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto Flex">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="background">
      <div class="nav-container">
         <div class="sublinks">
-            <a href="">Homes</a>
+            <a href="#div_homes">Homes</a>
+            <p style="font-size: 27px; padding: 10px; float: left; margin-top: 6%; color: #453e80">|</p>
             <a href="">Experiences</a>
         </div>
         <div class="logo-container">
             <a href="index.html"><img src="Logo-removebg-preview.png" style = "width:120px"></a>
         </div>
-        <a href="login.html"><button class="line_animation_hover">Sign in | <i class="fa fa-sign-in"></i></button></a>
+        <a href="login.html"><button class="line_animation_hover">Sign in | 
+        <i class="fa fa-user-circle-o"></i></button></a>
         <button class="line_animation_hover">Schedule</button>
      </div>
      <div class="search-container">
@@ -30,10 +36,10 @@
         </div>
         <div class="search-bar-container">
             <form>
-                <input type="text" placeholder="Search" name="search">
+                <input type="text" placeholder="Location" name="location">
                 <input type="text" placeholder="Check in" id="CI">
                 <input type="text" placeholder="Check out" id="CO">
-                <input type="text" placeholder="Number of Guests" name="NumOfGuest">
+                <input type="text" placeholder="Guests" name="NumOfGuest">
                 <button type="submit">Search</button>
             </form>
         </div>
@@ -44,27 +50,45 @@
             $("#CO").datepicker();
         });
      </script>
+     <p id="div_homes" style="position: absolute; margin: 30px; 
+     font-family: 'Permanent Marker'; font-size: 50px; 
+     color: #453e80">Explore.</p>
+     <br><br><br><br>
      <div class="homes-container">
-        <div class="home">
+        <div class="home lift">
             <img src="760x470xc.jpg">
-            <p>House #1</p>
+            <div class="p-contain">
+                <p id="p-housetitle">House #1</p>
+            </div>
         </div>
-        <div class="home">
+        <div class="home lift">
             <img src="2206_Int_Kitchen_C01_F01-copy_sm.jpg">
-            <p>House #2</p>
+            <div class="p-contain">
+                <p id="p-housetitle">House #2</p>
+            </div>
         </div>
-        <div class="home">
+        <div class="home lift">
             <img src="GA_ATL_PITTSBURGH_82772_161_RT-2_RT-5f7457-720x480.jpg">
-            <p>House #3</p>
+            <div class="p-contain">
+                <p id="p-housetitle">House #3</p>
+            </div>
         </div>
-        <div class="home">
+        <div class="home lift">
             <img src="13038_00_N92_high-scaled-720x480.jpg.webp">
-            <p>House #4</p>
+            <div class="p-contain">
+                <p id="p-housetitle">House #4</p>
+            </div>
         </div>
-        <div class="home">
+        <div class="home lift">
             <img src="10_08041_00_N25-720x480.jpg.webp">
-            <p>House #5</p>
+            <div class="p-contain">
+                <p id="p-housetitle">House #5</p> 
+                <p id="p-desc">$14.00 Per night</p>
+            </div>
         </div>
+     </div>
+     <div class="footer">
+        <p>Hello</p>
      </div>
 </body>
 </body>
