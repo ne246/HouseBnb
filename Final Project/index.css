@@ -11,20 +11,32 @@
 .nav-container .sublinks{
     float: left;
     position: absolute;
-    left: 41%;
-    top: 13%;
+    left: 39.5%;
+    top: 5%;
 }
 .nav-container .sublinks a {
     float: left;
-    font-family: "Quicksand";
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400px;
     font-size: 24px;
+    padding: 10px;
+    border-radius: 16px;
     margin: 20px;
     text-decoration: none;
+    transition: 0.3s;
+}
+.nav-container .sublinks a:hover {
+    background-color: #bbbcdb;
+    opacity: 1;
+}
+.nav-container .sublinks a:active {
+    color: #453e80;
+    background-color: none;
 }
 .nav-container button {
-    margin-top: 10px;
+    margin-top: 1.5%;
     margin-left: 2px;
-    margin-right: 10px;
+    margin-right: 3%;
     font-size: 15px;
     float: right;
     display: block;
@@ -32,11 +44,12 @@
     border: none;
     border-radius: 12px;
     background-color: #EEEEEE;
+    font-family: "Quicksand" 'Arial Narrow Bold', sans-serif;
     color: #453e80;
     cursor: pointer;
 }
 .column tbody td {
-    transform-origin: top;
+    transform-origin: bottom;
     animation: revealing-bars 2s linear infinite;
 }
 @keyframes revealing-bars {
@@ -68,10 +81,10 @@
 .nav-container .logo-container a {
     float: left;
     display: block;
-    text-align: center;
-    padding: 14px 16px;
+    padding: 8px 6px;
+    margin-top: 15%;
+    margin-left: 15%;
     font-size: 14px;
-    text-decoration: none;
 }
 .nav-container .logo-container a:hover {
     background-color: transparent;
@@ -101,13 +114,23 @@
 .search-container .search-bar-container button {
     float: right;
     padding: 6px;
-    margin: 5px 5px;
-    background: white;
-    color: black;
+    margin: 10px;
+    background-color: #EEEEEE;
+    color: #453e80;
     font-size: 17px;
-    border: 2px solid black;
+    border: none;
     border-radius: 10px;
+    transition: 0.3s;
     cursor: pointer;
+}
+.search-container .search-bar-container button:hover {
+    background-color: #453e80;
+    color: #EEEEEE;
+    opacity: 1;
+}
+.search-container .search-bar-container button:active {
+    background-color: #453e80;
+    color: #EEEEEE;
 }
 .search-container .img-container {
     position: relative;
@@ -171,19 +194,54 @@
 }
 .homes-container {
     margin-top: 30px;
-    overflow: scroll;
+    overflow: hidden;
 }
 .homes-container .home a {
     cursor: pointer;
 }
 .homes-container .home {
-    margin: 20px;
+    margin: 28px;
     display: inline-block;
 }
 .homes-container .home img {
     width: 300px;
     height: 300px;
     object-fit: cover;
-    border: 5px solid black;
+    box-shadow: 10px 10px 8px #3A3B50;
     border-radius: 20px;
+}
+.homes-container .lift img {
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+.homes-container .lift:hover img {
+    top: -10px;
+}
+.homes-container .p-contain {
+    overflow: scroll;
+    margin-top: 20px;
+    width: 300px;
+    height: 100px;
+}
+#p-housetitle {
+    font-size: 18px;
+    margin: 0px 5px 20px 0px;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: bold;
+    color: #3A3B50;
+}
+#p-desc {
+    font-size: 15px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 150px;
+    color: #858e97;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #453e80;
+    color: white;
 }
